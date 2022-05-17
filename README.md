@@ -1,2 +1,2 @@
 # onespring_mui
-Baseline MUI component library for Blackhawk Networks
+Baseline MUI component library for Blackhawk Network
