@@ -12,5 +12,5 @@ module.exports = {
     ],
     webpackConfig: 'uxpin.webpack.config.js',
   },
-  name: 'UXPIN-MUI'
+  name: 'onespring_mui'
 };
