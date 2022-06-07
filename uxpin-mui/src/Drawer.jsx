@@ -11,7 +11,7 @@ import { withRouter } from "react-router-dom";
 
 const useStyles = makeStyles({
   drawer: {
-    width: "190px"
+    width: "240px"
   }
 });
 
