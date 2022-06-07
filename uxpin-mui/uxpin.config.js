@@ -4,9 +4,9 @@ module.exports = {
       {
         name: 'General',
         include: [
-          "src/Button.jsx",
-          "src/Checkbox.jsx",
-          "src/Radio.jsx"
+          "src/components/Button/Button.jsx",
+          "src/components/Checkbox/Checkbox.jsx",
+          "src/components/Radio/Radio.jsx"
         ]
       }
     ],

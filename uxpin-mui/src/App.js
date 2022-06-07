@@ -1,8 +1,8 @@
 import React from "react";
 import Home from "./Home";
-import Checkbox from "./Checkbox";
-import Button from "./Button";
-import Radio from "./Radio";
+import Checkbox from "./components/Checkbox/Checkbox";
+import Button from "./components/Button/Button";
+import Radio from "./components/Radio/Radio";
 import { Route, Switch } from "react-router-dom";
 import Drawer from "./Drawer";
 import { makeStyles } from "@material-ui/core/styles";
