@@ -34,6 +34,10 @@ const Drawer = props => {
     {
       text: "Checkbox",
       onClick: () => history.push("/checkbox")
+    },
+    {
+      text: "Text-field",
+      onClick: () => history.push("/text-filed")
     }
   ];
   return (

@@ -3,6 +3,7 @@ import Home from "./Home";
 import Checkbox from "./components/Checkbox/Checkbox";
 import Button from "./components/Button/Button";
 import Radio from "./components/Radio/Radio";
+import Textfield from "./components/Textfield/Textfield";
 import { Route, Switch } from "react-router-dom";
 import Drawer from "./Drawer";
 import { makeStyles } from "@material-ui/core/styles";
@@ -25,6 +26,7 @@ export default function App() {
         <Route exact from="/button" render={props => <Button {...props} />} />
         <Route exact path="/checkbox" render={props => <Checkbox {...props} />} />
         <Route exact path="/radio" render={props => <Radio {...props} />} />
+        <Route exact path="/textfield" render={props => <Textfield {...props} />} />
       </Switch>
     </div>
   );
